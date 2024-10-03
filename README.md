@@ -42,7 +42,3 @@ To run this project locally, follow these steps:
   - `js/`: Contains JavaScript files, including the main component.
   - `styles/`: Contains CSS files for styling the application.
   - `index.js`: Entry point of the application.
-
-## License
-
-This project is licensed under the MIT License.
