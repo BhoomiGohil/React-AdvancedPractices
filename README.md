@@ -14,7 +14,7 @@ This project explores advanced concepts in React development. It includes implem
 
 ## Visual Design
 
-![Index](index,png)
+![Index](index.png)
 
 ## Installation
 
