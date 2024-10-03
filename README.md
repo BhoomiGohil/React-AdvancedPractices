@@ -1,4 +1,3 @@
-
 # Scrimba-React-learn-react-3
 
 This repository contains practice exercises and projects from the Scrimba React course, focusing on building React applications using hooks, components, and state management.
@@ -8,6 +7,7 @@ This repository contains practice exercises and projects from the Scrimba React 
 This project explores advanced concepts in React development. It includes implementations of various components and covers key aspects such as state management, hooks (`useState`, `useEffect`), and JSX.
 
 ## Key Concepts Covered
+
 1. **React Components** - Learn how to create reusable UI components.
 2. **State Management** - Handle and update component state using hooks.
 3. **Hooks** - Use React hooks like `useState` and `useEffect` for functional components.
@@ -19,24 +19,24 @@ This project explores advanced concepts in React development. It includes implem
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-    \`\`\`bash
-    git clone https://github.com/BhoomiGohil/Scrimba-React-learn-react-3.git
-    \`\`\`
+   \`\`\`bash
+   git clone https://github.com/BhoomiGohil/React-ComponentsPractice.git
+   \`\`\`
 
 2. Navigate to the project directory:
-    \`\`\`bash
-    cd Scrimba-React-learn-react-3
-    \`\`\`
+   \`\`\`bash
+   cd React-ComponentsPractice
+   \`\`\`
 
 3. Install dependencies:
-    \`\`\`bash
-    npm install
-    \`\`\`
+   \`\`\`bash
+   npm install
+   \`\`\`
 
 4. Start the development server:
-    \`\`\`bash
-    npm start
-    \`\`\`
+   \`\`\`bash
+   npm start
+   \`\`\`
 
 ## Example Code
 
@@ -46,16 +46,17 @@ Here's a brief example of using state in a component:
 import React, { useState } from 'react';
 
 function ExampleComponent() {
-  const [count, setCount] = useState(0);
+const [count, setCount] = useState(0);
 
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
-  );
+return (
+
+<div>
+<p>You clicked {count} times</p>
+<button onClick={() => setCount(count + 1)}>
+Click me
+</button>
+</div>
+);
 }
 
 export default ExampleComponent;
@@ -67,7 +68,7 @@ export default ExampleComponent;
 src/
 │
 ├── components/
-│   └── [Reusable components for the app]
+│ └── [Reusable components for the app]
 ├── App.js
 ├── index.js
 └── ...
