@@ -9,8 +9,6 @@ This project explores advanced concepts in React development. It includes implem
 ## Key Concepts Covered
 
 1. **React Components** - Learn how to create reusable UI components.
-2. **State Management** - Handle and update component state using hooks.
-3. **Hooks** - Use React hooks like `useState` and `useEffect` for functional components.
 4. **Props** - Pass data between components effectively.
 5. **JSX** - Write clean, readable JSX to define the UI structure.
 
@@ -19,48 +17,24 @@ This project explores advanced concepts in React development. It includes implem
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/BhoomiGohil/Scrimba-React-ComponentsPractice.git
-   \`\`\`
+   ```
 
 2. Navigate to the project directory:
-   \`\`\`bash
+   ```bash
    cd Scrimba-React-ComponentsPractice
-   \`\`\`
+   ```
 
 3. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   ```
 
 4. Start the development server:
-   \`\`\`bash
+   ```bash
    npm start
-   \`\`\`
-
-## Example Code
-
-Here's a brief example of using state in a component:
-
-\`\`\`jsx
-import React, { useState } from 'react';
-
-function ExampleComponent() {
-const [count, setCount] = useState(0);
-
-return (
-
-<div>
-<p>You clicked {count} times</p>
-<button onClick={() => setCount(count + 1)}>
-Click me
-</button>
-</div>
-);
-}
-
-export default ExampleComponent;
-\`\`\`
+   ```
 
 ## Project Structure
 
