@@ -12,6 +12,10 @@ This project explores advanced concepts in React development. It includes implem
 4. **Props** - Pass data between components effectively.
 5. **JSX** - Write clean, readable JSX to define the UI structure.
 
+## Visual Design
+
+![Index](index,png)
+
 ## Installation
 
 To run this project locally, follow these steps:
