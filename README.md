@@ -1,4 +1,4 @@
-# Scrimba-React-learn-react-3
+# Scrimba-React-Components
 
 This repository contains practice exercises and projects from the Scrimba React course, focusing on building React applications using hooks, components, and state management.
 
@@ -20,12 +20,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/BhoomiGohil/React-ComponentsPractice.git
+   git clone https://github.com/BhoomiGohil/Scrimba-React-ComponentsPractice.git
    \`\`\`
 
 2. Navigate to the project directory:
    \`\`\`bash
-   cd React-ComponentsPractice
+   cd Scrimba-React-ComponentsPractice
    \`\`\`
 
 3. Install dependencies:
