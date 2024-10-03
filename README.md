@@ -64,15 +64,10 @@ export default ExampleComponent;
 
 ## Project Structure
 
-\`\`\`
-src/
-│
-├── components/
-│ └── [Reusable components for the app]
-├── App.js
-├── index.js
-└── ...
-\`\`\`
+- `src/`
+  - `js/`: Contains JavaScript files, including the main component.
+  - `styles/`: Contains CSS files for styling the application.
+  - `index.js`: Entry point of the application.
 
 ## License
 
